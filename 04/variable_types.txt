@@ -1,0 +1,6 @@
+numbers 		$myVars: .25in;
+strings				$myStr: "some piece of text"
+colors				$myColor:#blue;
+booleans		$myBool:false;
+nulls				 $myVar:null;
+lists				  $myList:2px 4px 6px 8px;
