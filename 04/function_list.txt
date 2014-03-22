@@ -1,0 +1,31 @@
+color functions:
+	lighten(color,amount)
+	darken(color,amount)
+	saturate(color,amount)
+	fadein(color,amount)
+	fadeout(color,amount)
+	fade(color,amount)
+	mix(color1,color2)
+	hue(color)
+	saturation(color)
+	lightness(color)
+	alpha(color)
+	grayscale(color)
+	complement(color)
+	invert(color)
+
+math functions:
+	round(number)
+	ceil(number)
+	floor(number)
+	percentage(number)
+	abs(number)
+	min(n1,n2,...)
+	max(n1,n2,...)
+	
+
+
+
+
+
+
