@@ -1,0 +1,16 @@
+// $myColor: red;
+$basepadding: 10px;
+// $basepadding: 10em;
+$gender: boy;
+$myColor: if($gender=="boy", #00f, #f00);
+$basethickness: 4px;
+
+#mypara {
+    // color: $myColor;
+    // color: $myColor+#00f;
+    color: $myColor;
+    // border: $basethickness solid $myColor;
+    border: ($basethickness+10)/2 solid $myColor;
+    // padding: $basepadding;
+    padding: $basepadding $basepadding + 40;
+}

@@ -1,0 +1,19 @@
+@mixin customBorder($width, $color, $style) {
+    border: {
+        width: $width;
+        color: $color;
+        style: $style;
+    };
+}
+@mixin customBorder2($width: 1px, $color: black, $style:solid) {
+    border: {
+        width: $width;
+        color: $color;
+        style: $style;
+    };
+}
+#mypara {
+	// @include customBorder(3px,blue,dotted);
+	// @include customBorder2;
+	@include customBorder2(3px,blue,dashed);
+}
