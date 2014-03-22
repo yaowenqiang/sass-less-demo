@@ -1,0 +1,6 @@
+SASS provides server options to control how the .scss code is formatted when compiled into CSS
+those are specified using the --style option
+	nested 		default format, indented, block comments will be preserved ,styles are all indented.
+	expanded	most human-friendly readable format.
+	compact		CSS output is condensed, but still readable, styles are all in one line, multi-line comments changes to one line.
+	compressed	minimized output, suitable for production environments, comments are removed and all styles are in one line.
