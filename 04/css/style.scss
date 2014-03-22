@@ -1,3 +1,20 @@
-body{
-    color: red;
+$myColor1: navy;
+$myColor2: #000080;
+$myColor3: yellow;
+$myStringVar: "with an appended  string";
+$myFontSize:18px;
+$myBool:false;
+$myVar:null;
+$thinBorder:10px solid $myColor1;
+$paddingVar: 15px 15px 15px 15px;
+h1,h2{
+    color: $myColor1;
+}
+#mypara {
+    font-size: $myFontSize;
+    border:$thinBorder;
+    padding:$paddingVar;
+}
+#mypara:after {
+    content:$myStringVar;
 }
